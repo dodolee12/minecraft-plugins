@@ -1,0 +1,18 @@
+name: Claim
+version: ${project.version}
+main: net.dohaw.claim.ClaimPlugin
+api-version: 1.16
+
+commands:
+  claim:
+    description: Claims a chunk
+    usage: /claim
+  unclaim:
+    description: Unclaims a chunk that was claimed
+    usage: /unclaim
+  trust:
+    description: Gives a player full permissions in your claimed chunk
+    usage: /trust playername
+  flags:
+    description: Add flags to claimed chunk
+    usage: /flags
